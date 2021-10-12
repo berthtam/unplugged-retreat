@@ -572,6 +572,7 @@ input[type=button] {
       /* ==========================================================================
        About Page
        ========================================================================== */
+
       .mission-content {
         justify-content: space-between;
         display: flex;
@@ -583,21 +584,28 @@ input[type=button] {
          width: 42%;
        }
 
+       .contact-section .content-wrapper h2 {
+         width: 80%;
+       }
+
+       .contact-content {
+         display: flex;
+         justify-content: space-between;
+         align-items: flex-start;
+       }
       /* ==========================================================================
        FAQ Page
        ========================================================================== */
-       header {
-         margin: 15px 0;
-       }
-       .content-wrapper {
+
+       .faq .content-wrapper{
+          justify-content: space-between;
+        }
+
+      .faq-content {
          width: 45%;
        }
 
-       .content-wrapper{
-         justify-content: space-between;
-       }
-
-       .faq .content-wrapper h2 {
+       .faq h2 {
          width: 100%;
        }
 
